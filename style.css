@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{    
+    background-image: url(https://martechtoday.com/wp-content/uploads/2018/08/humanity-technology-handshake-ss-1920_dtp9xy.jpg);
+    background-repeat: no-repeat;
+    
+}
+#logo{
+    position: absolute;
+    width: 10vh;
+    left: 46vw;
+    top: 15vh;
+    opacity: 100%;
+    cursor: pointer;
+}
+#logo:hover{
+    opacity: 50%;
+    transition: all 0.5s;
+}
+#Bem_Vindo{
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+    font-size: 50px;
+}
+#texto_Boasvindas{
+    position: absolute;
+    left: 36vw;
+    top: 40vh;
+    font-size: 15px;
+    text-align: center;
+}
+#Formulario_Cadastro{
+    position: absolute;
+    top: 50vh;
+    left: 44vw;
+    width: 10vw;
+    height: 5vh;
+    font-size: 15px;
+    background: rgba(0, 250, 237, 0.473);
+    border-radius: 2em 2em 4em 4em;
+    outline: none;
+    cursor: pointer;
+}
+#Formulario_Cadastro:hover{
+background: rgba(0, 255, 242, 0.781);
+transition: all 0.5s ease-in-out;
+}
+.Base_Fundo{
+    
+        position: absolute;
+        
+        border-top: 750px solid rgb(255, 255, 255);
+        width: 800px;
+        left: 30vw;
+        top: 15vh;
+        border-radius: 1em 1em 1em 1em;
+}
+
+#Formulario_Contrato{
+    position: absolute;
+    top: 8vh;
+    left: 41vw;
+    font-style: italic;
+}
+#Nome_Funcionario0{
+    position: absolute;
+    top: 20vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#Nome_Funcionario{
+    position: absolute;
+    top: 20.2vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#CPF0{
+position: absolute;
+top: 25vh;
+left: 32vw;
+font-size: 20px;
+}
+#CPF{
+    position: absolute;
+    top: 25vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#RG0{
+    position: absolute;
+    top: 30vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#RG{
+    position: absolute;
+    top: 30vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Data_Nascimento0{
+    position: absolute;
+    top: 35vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#Data_Nascimento{
+    position: absolute;
+    top: 35vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#CNH0{
+    position: absolute;
+    top: 40vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#CNH{
+    position: absolute;
+    top: 40vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Estado_Civil0{
+    position: absolute;
+    top: 45vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#Estado_Civil{
+position: absolute;
+    top: 45vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Endereço{
+    position: absolute;
+    top: 50vh;
+    left: 47vw;
+    font-size: 25px;
+}
+#CEP0{
+    position: absolute;
+    top: 55vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#CEP{
+    position: absolute;
+    top: 55vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#RUA0{
+    position: absolute;
+    top: 60vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#RUA{
+    position: absolute;
+    top: 60vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Bairro0{
+    position: absolute;
+    top: 65vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#Bairro{
+    position: absolute;
+    top: 65vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Cidade0{
+    position: absolute;
+    top: 70vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#Cidade{
+    position: absolute;
+    top: 70vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Estado0{
+    position: absolute;
+    top: 75vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#Estado{
+    position: absolute;
+    top: 75vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Numero0{
+    position: absolute;
+    top: 80vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#Numero{
+    position: absolute;
+    top: 80vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Complemento0{
+    position: absolute;
+    top: 85vh;
+    left: 32vw;
+    font-size: 20px;
+}
+#Complemento{
+    position: absolute;
+    top: 85vh;
+    left: 42vw;
+    width: 25em;
+    outline: none;
+}
+#Enviar_Dados{
+    position: absolute;
+    top: 96vh;
+    left: 45vw;
+    width: 10vw;
+    height: 3vh;
+    outline: none;
+    background: rgba(0, 180, 171, 0.473);
+}
+#Enviar_Dados:hover{
+transition: all 0.5s ;
+    background: rgba(0, 180, 171, 0.74);
+}
+
